@@ -7,15 +7,13 @@ namespace App
     {
         static void Main(string[] args)
         {
-            // DIManager.RegisterControllers();
-            // DIManager.Register<ILogger, Logger>();
-            // DIManager.Register<IBus, Bus>();
-            // DIManager.Register<IFerry, Ferry>();
-            // DIManager.Register<ISubway, Subway>();
+            DIManager.RegisterControllers();
+            DIManager.Register<ILogger, Logger>();
+            DIManager.Register<IBus, Bus>();
+            DIManager.Register<IFerry, Ferry>();
+            DIManager.Register<ISubway, Subway>();
 
-            // Loop.Start();
-
-            HelloWorldGenerated.HelloWorld.SayHello();
+            Loop.Start();
 
         }
     }

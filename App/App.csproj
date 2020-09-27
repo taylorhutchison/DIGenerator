@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DIGenerator\DIGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\DIGenerator\DIGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="" />
   </ItemGroup>
 
 </Project>
